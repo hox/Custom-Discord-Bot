@@ -13,6 +13,8 @@
 
 */
 
+require("dotenv").config(); // Do not edit this line
+
 // Your Twitch Username (optional)
 const USERNAME = "";
 
@@ -49,7 +51,6 @@ const DISCORD_STATUS_LINK = "";
  *  Unless you know what you are doing (:
  */
 
-require("dotenv").config();
 const Discord = require("discord.js");
 const fetch = require("node-fetch");
 const color = require("chalk");
